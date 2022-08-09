@@ -157,6 +157,10 @@ background-color: gray;
             display: grid;
             grid-template-columns: auto auto;
         }
+        #s
+{
+    display: none;
+}
 }
 
 @media only screen and (max-width: 480px)
@@ -185,5 +189,9 @@ background-color: gray;
 .container1{
     display: grid;
     grid-template-columns: auto ;
+}
+#s
+{
+    display: block;
 }
 }
